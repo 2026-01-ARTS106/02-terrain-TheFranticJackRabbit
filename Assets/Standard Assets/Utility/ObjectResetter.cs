@@ -45,11 +45,11 @@ namespace UnityStandardAssets.Utility
 
             transform.position = originalPosition;
             transform.rotation = originalRotation;
-            if (Rigidbody)
-            {
-                Rigidbody.linearVelocity = Vector3.zero;
-                Rigidbody.angularVelocity = Vector3.zero;
-            }
+            //if (Rigidbody)
+            //{
+            //    Rigidbody.linearVelocity = Vector3.zero;
+            //    Rigidbody.angularVelocity = Vector3.zero;
+            //}
 
             SendMessage("Reset");
         }
